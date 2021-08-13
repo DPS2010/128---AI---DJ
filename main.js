@@ -36,6 +36,76 @@ function gotPoses(result) {
         rightWristx = result[0].pose.rightWrist.x
         rightWristy = result[0].pose.rightWrist.y
         console.log("Left Wrist X = " + leftWristx + " Right Wrist X = " + rightWristx + " Left Wrist Y = " + leftWristy + " Right Wrist Y" + rightWristy )
-        
+
     }
 } 
+function play() {
+    song.play()
+    song.setVolume(1)
+    song.rate(1)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
